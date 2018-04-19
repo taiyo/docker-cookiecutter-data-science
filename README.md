@@ -98,6 +98,9 @@ The directory structure of your new project looks like this:
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
 
+## Video Demo
+[![Torus Demo Youtube](http://img.youtube.com/vi/RgRmT4W8nTY/0.jpg)](http://www.youtube.com/watch?v=RgRmT4W8nTY)
+
 ## Helpful Resources 
 - Docker command cheatsheet: https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 - Dockerfile reference: https://docs.docker.com/engine/reference/builder/
