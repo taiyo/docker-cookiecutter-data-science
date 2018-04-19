@@ -1,5 +1,13 @@
 # Docker Cookiecutter Data Science
-_Helping Data Science teams easily move to a Docker-first development workflow to iterate and deliver projects faster and more reliably._
+**Helping Data Science teams easily move to a Docker-first development workflow to iterate and deliver projects faster and more reliably.**
+
+*New to Docker? Check out this writeup on containers vs virtual machines and how Docker fits in:*
+
+*https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b*
+
+*Cookiecutter is a command-line utility that automatically scaffolds new projects for you based on a template (referred to as cookiecutters):* 
+
+*http://cookiecutter.readthedocs.io/en/latest/readme.html*
 
 
 This cookiecutter is used in conjunction with a base development image available in [Docker Hub](https://hub.docker.com/r/manifoldai/docker-ml-dev/) to provide an out-of-the-box ready environment for many Data Science and Machine Learning project use cases.
@@ -118,6 +126,7 @@ The directory structure of your new project looks like this:
 - Docker command cheatsheet: https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 - Dockerfile reference: https://docs.docker.com/engine/reference/builder/
 - Docker Compose reference: https://docs.docker.com/compose/compose-file/
+- Kitematic (GUI interface to work with Docker. Highly recommended if you are new to Docker!): https://kitematic.com/
 
 ## Contributing
 PRs and feature requests very welcome!
