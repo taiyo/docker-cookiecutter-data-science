@@ -23,6 +23,19 @@ By using containers early in the development cycle you can remove a lot of the c
 1. Install Docker: 
     - For Mac: https://store.docker.com/editions/community/docker-ce-desktop-mac
     - For Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
+    - For Linux: Go to this page and choose the appropriate install for your Linux distro: https://www.docker.com/community-edition
+        - Install Docker Compose (https://docs.docker.com/compose/install/#install-compose):
+            ```bash
+            $ sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+            ```
+            ```bash
+            $ sudo chmod +x /usr/local/bin/docker-compose
+            ```
+            Test the installation:
+            ```bash
+            $ docker-compose --version
+            docker-compose version 1.21.0, build 1719ceb
+            ```
 2. Install Python Cookiecutter package: http://cookiecutter.readthedocs.org/en/latest/installation.html >= 1.4.0
     ``` bash
     $ pip install cookiecutter
