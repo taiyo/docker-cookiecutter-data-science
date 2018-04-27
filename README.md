@@ -128,6 +128,9 @@ The directory structure of your new project looks like this:
 - Docker Compose reference: https://docs.docker.com/compose/compose-file/
 - Kitematic (GUI interface to work with Docker. Highly recommended if you are new to Docker!): https://kitematic.com/
 
+## Why Did We Build This?
+We are trying to bridge the gap that exists between data science and dev/operations teams today. We wrote about it here:
+https://medium.com/manifold-ai/torus-a-toolkit-for-docker-first-data-science-bddcb4c97b52
+
 ## Contributing
 PRs and feature requests very welcome!
-
