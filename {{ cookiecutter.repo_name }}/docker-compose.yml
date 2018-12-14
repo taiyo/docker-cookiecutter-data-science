@@ -1,12 +1,14 @@
 version: '3'
 services:
-   notebook-server:
-      build: .
+   jupyterlab:
+      build:
+         context: ./compose/jupyterlab
+      user: root
       ports:
-         - "127.0.0.1::8888"
+         - "8888:8888"
       volumes:
-         - ./:/mnt
-      entrypoint: bash -c "cd /mnt && jupyter notebook --NotebookApp.token='' --ip=0.0.0.0 --allow-root && /bin/bash" 
-      stdin_open: true
-      tty: true
-
+         - ".:/home/jovyan/work"
+      environment:
+         NB_UID: 1000
+         GRANT_SUDO: "yes"
+      command: start.sh jupyter lab --NotebookApp.token='' 
