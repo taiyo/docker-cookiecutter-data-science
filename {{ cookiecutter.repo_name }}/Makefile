@@ -76,6 +76,10 @@ endif
 test_environment:
 	$(PYTHON_INTERPRETER) test_environment.py
 
+## notebookのdiffを取るために出力を削除する
+nbstripout:
+	nbstripout --install --attributes .gitattributes
+
 #################################################################################
 # PROJECT RULES                                                                 #
 #################################################################################
