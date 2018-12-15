@@ -4,6 +4,7 @@ services:
       build:
          context: ./compose/jupyterlab
       user: root
+      working_dir: /home/jovyan/work
       ports:
          - "8888:8888"
       volumes:
